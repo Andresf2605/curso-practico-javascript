@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+#no tengo esta carpeta pero lo hago como prueba para recordar git y github
+.vscode
