@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./figuras.css">
+    <title>Figuras geometricas | curso pratico de javaScript</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Figuras geometricas
+        </h1>
+        <p>Este es el primer taller del curso practico de javascript</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>
+                Calcula el area y perimetro de un cuadrado
+            </h2>
+            <form>
+                <div id="cuadrado" class="section-cuadrado">
+                    <label for="InputCuadrado">Escribe el lado del cuadrado</label>
+                    <input type="number" id="InputCuadrado">
+                    <button type="button" onclick="calcularPerimetroCuadrado()">Calcular el perimetro</button>
+                    <button type="button" onclick="calcularAreaCuadrado()">Calcular el area</button>
+                </div>
+                <div id="triangulo" class="section-triangulo">
+                    <label for="lado1">Escribe el lado 1 del triangulo</label>
+                    <input type="number" id="lado1">
+                    <label for="lado2">Escribe el lado 2 del triangulo</label>
+                    <input type="number" id="lado2">
+                    <label for="base">Escribe la base del triangulo</label>
+                    <input type="number" id="base">
+                    <button type="button" onclick="calcularPerimetroTriangulo()">Calcular el perimetro</button>
+                    <button type="button" onclick="calcularAreaTriangulo()">Calcular el area</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <!-- <div class="main">
+        <img src="https://www.cultura10.com/wp-content/uploads/2011/11/triangulo.jpg" alt="https://www.cultura10.com/wp-content/uploads/2011/11/triangulo.jpg">
+        <input type="text" name="lado-triangulo" id="lado-triangulo">
+    </div> -->
+
+
+
+    <script src="./figuras.js"></script>
+</body>
+
+</html>
